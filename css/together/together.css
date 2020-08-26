@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+}
+
+.search {
+    background-color: rgb(223, 51, 71);
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.togetherpic {
+    position: absolute;
+    left: 18vw;
+    top: 2.2vh;
+    width: 4vw;
+}
+.togetherpicRight{
+    position: absolute;
+    right: 16vw;
+    top: 2.2vh;
+    width: 4vw;
+}
+
+.searchInput {
+    width: 75vw;
+    height: 4vh;
+    border: none;
+    border-radius: 4vw;
+    text-indent: 11vw;
+}
+
+.prolist {
+    position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+    width: 85vw;
+    -webkit-overflow-scrolling:touch
+    
+}
+.prolist::-webkit-scrollbar {display: none;}
+
+.scollProlist{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.prolist p{
+    display: inline-block;
+    width: 17vw;
+    min-width: 16vw;
+    font-size: 1rem;
+    padding-bottom: 2vh;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .9rem;
+    /* letter-spacing: 1vw; */
+}
+
+.listpic {
+    max-width: 100%;
+    height: auto;
+    z-index: 3;
+}
+
+.rightList {
+    position: absolute;
+    right: 0;
+    top: 6vh;
+    margin-right: 6vw;
+}
+.rightList img{
+    width: 5vw;
+}
+.shadow{
+    width: 2vw !important;
+    height: 4vh;
+
+}
+
+.bgRed {
+    background-color: rgb(223, 51, 71);
+    height: 15vh;
+}
+
+.bgWri {
+    height: 8vh;
+}
+
+.showSwiper {
+    position: relative;
+}
+.swipe{
+    border-radius: 5px;
+}
+
+.positionSwiper {
+    position: absolute;
+    top: 0;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.positionSwiper span {
+    font-size: .5rem;
+    color: #c2c2c2;
+}
+
+.swiperTxt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hiddenBox {
+    height: 30vh;
+}
+
+.aloneBox {
+    margin-top: 7vh;
+}
+
+.aloneBox button {
+    margin-top: 2vh;
+}
+
+.mescroll {
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    
+}
+.mescroll-upwarp{
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li{
+    overflow: hidden;
+}
+ul li:last-child{
+    margin-bottom: 4vh;
+}
+.aloneTex {
+    position: relative;
+    float: right;
+    margin-top: -2.5vh;
+    padding-bottom: 0;
+    border-bottom: none;
+    width: 48vw;
+    height: 44vw;
+    margin-left: 0rem;
+}
+.aloneTex p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.alone{
+    vertical-align: text-top;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.aloneMoney {
+    display: inline-block;
+    margin-top: 1vh;
+}
+
+.toJoin {
+    display: block;
+    border: none;
+    border-radius: 15%;
+    background-color: rgb(230, 71, 68);
+    padding: 2vw;
+    color: #fff;
+    margin-top: 2vh;
+    position:absolute;
+    bottom: 0;
+}
+.active{
+    background-image: url(../shouye/together/choosedown.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 6vw;
+}
+.alonePic {
+    padding-bottom:0;
+    height: 40vw;
+}
+.alonePic img{
+    height: 100%;
+    border-radius: 5px;
+}
+.bottomTex{
+    width: 100%;
+    align-content: center;
+}
+.bottomTex span{
+    width: 50vw;
+}
+#changeBottom{
+    width: 100vw;
+    
+}
+#changeBottom span{
+    width: 50vw;
+}
+#changeBottom img{
+    max-width: 100%;
+    height: 100%;
+}
+.hidden{
+    display: none;
+}
+
+/* 多出的产品列表 */
+.promore{
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 13vh;
+    z-index: 110;
+    transition: height 1s ease;
+    visibility: hidden;
+    max-height: 60vh;
+}
+.promorechoose{
+    text-align: center;
+    padding: 2vh;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+.morepro{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.morepro span{
+    max-width: 15vw;
+    min-width: 13vw;
+    padding: 3vw;
+    text-align: center;
+    color: rgb(128 , 128, 128);
+}
+#mescroll{
+    max-width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
+/* 多余填充 */
+.fill{
+    background: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 7vh;
+    display: none;
+    z-index: 110;
+}
+/* 向上的箭头 */
+.arrowUp{
+    position:absolute;
+    right: 2vw;
+    width: 5vw;
+    margin-right: 2vw;
+}
+.arrowUp img{
+    max-width: 100%;
+}
+.header{
+    background-color: rgb(221, 51, 67);
+}
+.title{
+    color: #fff;
+}

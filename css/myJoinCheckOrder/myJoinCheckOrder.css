@@ -1,0 +1,110 @@
+.myJoinCheckContent {
+    padding: 2vw 4vw;
+    background-color: #f8f7fc;
+    padding-top: 80px;
+}
+
+.myJoinCheckPick {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    line-height: 2;
+
+}
+
+.myJoinCheckPick span {
+    height: 5vh;
+}
+
+.myJoinCheckWaitPay {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 2vh;
+    border-radius: 6px;
+}
+
+.myJoinCheckNumberAndStatus {
+    padding-bottom: 2vh;
+    font-size: .9rem;
+}
+
+.myJoinCheckNumberAndStatus :first-child {
+    color: #808080;
+}
+
+.myJoinCheckNumberAndStatus :nth-child(2) {
+    float: right;
+    color: #e64643;
+}
+
+
+
+.many {
+    position: static;
+}
+
+.priceGrey {
+    color: black;
+}
+
+.myJoinClick {
+    display: block;
+    border-radius: 5px;
+    font-size: .8rem;
+    margin-left: auto;
+}
+
+.myJoinClickDetail{
+    display: inline-block;
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    border: 1px solid rgb(85, 85, 85);
+    padding: 1vw 2vw;
+    margin-right: 5vw;
+}
+.myJoinPayInline{
+    display: inline-block;
+}
+.timeLeft {
+    margin: 0;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+
+.timeLeftLogo img {
+    vertical-align: bottom;
+}
+
+.redButton {
+    letter-spacing: .1rem;
+}
+
+.myJoinCheckDetail {
+    position: absolute;
+    font-size: .8rem;
+    bottom: 1vh;
+    right: 30vw;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1vw 3vw;
+    letter-spacing: .1rem;
+}
+
+.active {
+    background-image: url(../../images/checkOrder/selectbottom.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.hidden {
+    display: none;
+}
+
+.isBottom {
+    text-align: center;
+    color: #cccccb;
+    font-size: .8rem;
+}

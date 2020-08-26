@@ -1,0 +1,295 @@
+body{background: #F8F7FC;padding-bottom: 60px;}
+.myOrderStore img{width: 12px;}
+.myOrderStore span{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+}
+.myOrderStatus{
+    font-size:.24rem;
+    color:rgba(230,67,64,1);
+} 
+.myOrderTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myOrderCenter{
+    display: flex;
+    align-items: center;
+    padding:16px 0 10px;
+    border-top: 1px solid #F0EFF3;
+    border-bottom: 1px solid #F0EFF3;
+    margin: 10px 0;
+}
+.productView{
+    margin-top: 38px;
+    padding-top: 15px;
+}
+.myOrderCenterPic{
+    width: 30%;
+    margin-right: 10px;
+}
+.myOrderCenterPic img{width: 100%;}
+.myOrderTitle{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+}
+.myOrderTime{
+    font-size:.24rem;
+    color:rgba(194,194,194,1);
+    margin: 10px 0 28px;
+}
+.myOrderPrice{
+    display: flex;
+    justify-content: space-between;
+}
+.myOrderPrice .price{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+}
+.myOrderPrice .price span{
+    color: #E64340;
+}
+.myOrderPrice p{
+    font-size:.24rem;
+    color:rgba(230,67,64,1);
+}
+.myOrderBottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.myOrderBtn{
+    display: flex;
+}
+.myOrderBtn button{margin-left: 10px;}
+.smhx{
+    width: 80px;
+    margin-right: auto;
+}
+.smhx span{
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+}
+.smhx img{height: 30px;margin-right: 10px;}
+/*订单列表*/  
+.obg{position: relative;}
+.obg>img{width: 100%;}
+.mod-Status{
+    position: absolute;
+    top: 40%;
+    left: 15px;
+}
+.mod-StatusTitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mod-StatusTitle img{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+.mod-StatusTitle span{
+    font-size:.32rem;
+    color:rgba(255,255,255,1);
+}
+.mod-StatusTxt span{
+    font-size:.24rem;
+    color:rgba(255,255,255,1);
+    margin-right: 10px;
+}
+.mod-msg{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: -30px;
+    position: relative;
+    border-radius:15px 15px 0px 0px;
+}
+.mod-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.mod-user span{vertical-align: middle;}
+.mod-msgCon img{height: 15px;margin-right: 10px;}
+.modi4{height: 15px;}
+.mod-msgName span{
+    font-size:.32rem;
+    color:rgba(68,68,68,1);
+}
+.mod-msgPhone span{
+    font-size:.28rem;
+    color:rgba(68,68,68,1);
+}
+.mod-msgAddress span{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+    vertical-align: middle;
+}
+.mod-store{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+}
+.mod-storePic img{width: 50px;margin-right: 10px;}
+.mod-storeCon p:first-child{
+    font-size:.28rem;
+    color:rgba(68,68,68,1);
+    margin-bottom: 15px;
+}
+.mod-storeCon .time{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+}
+.modList{    background: #ffffff;padding: 15px;}
+.modDetailTop{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 10px;
+}
+.modListTitle{
+    font-size:.32rem;
+    color:rgba(68,68,68,1);
+    position: relative;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.modListTitle::after{
+    content: '';
+    width:2px;
+    height:17px;
+    background:rgba(230,67,64,1);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.modDetailPic{
+    width: 40%;
+    margin-right: 10px;
+}
+.modDetailName{
+    display: flex;
+    justify-content: space-between;
+}
+.modDetailName p{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+}
+.modDetailTxt{
+    font-size:.24rem;
+    color:rgba(128,128,128,1);
+    margin: 15px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.modDetailTxt .num{color: #E64340;}
+.modDetailSelect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modDetailPrice{
+    font-size: .24rem;
+    color: #E64340;
+}
+.mod-total{
+    background: #ffffff;
+    margin: 10px 0;
+}
+.modTotalCon{padding: 15px;}
+.modTotalCon p{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+    margin-bottom: 10px;
+}
+.modTotalCon div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.modTotalCon div span{
+    font-size: .24rem;
+    color: #C2C2C2;
+}
+.modTotalPrice{
+    padding: 15px;
+    font-size: .24rem;
+    text-align: right;
+    border-top: 1px solid #E8E8E8;
+}
+.modTotalPrice span{
+    color: #E64643;
+}
+.mod-bottom{justify-content: flex-end;}
+.mod-bottom button{margin-left: 10px;}
+.openBox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    width: 76%;
+    display: none;
+}
+.openBoxCon{
+    padding: 30px 0;
+    background: #ffffff;
+}
+.openBoxCon p{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.mp{position: relative;}
+.mp>img{width: 100%;}
+.mpClose{
+    width:30px;
+    height:55px;
+    line-height: 65px;
+    background:rgba(255,255,255,1);
+    border-radius:0px 0px 15px 15px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    text-align: center;
+}
+.mpClose img{
+    width: 11px;
+}
+.serviceDetail span:first-child{
+    font-size:.24rem;
+    color:rgba(128,128,128,1);
+}
+.serviceDetail span:last-child{
+    font-size:.26rem;
+    color:rgba(230,67,64,1);
+}
+.upBox{
+    width: 100%;
+    height: 60%;
+    position: fixed;
+    bottom: -60%;
+    left: 0;
+    background: #ffffff;
+    border-radius: 15px 15px 0 0;
+    z-index: 100;
+    padding: 15px;
+    transition: .6s;
+}
+.upBoxTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*订单详情*/  

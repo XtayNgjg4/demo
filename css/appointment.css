@@ -1,0 +1,573 @@
+body{background: #F8F7FC;padding-bottom: 60px;}
+.appointmentTop{background: #ffffff;}
+.appointmentTop .swiper-slide{
+    transform: scale(0.9);
+    transition: .6s;
+    width: 89%!important;
+}
+.appointmentTop .swiper-slide-active{transform: scale(1);}
+.appointmentTop .swiper-wrapper{padding: 10px 0;}
+.swiperView{
+    padding: 10px 15px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 5px 0px rgba(255,173,188,0.6);
+    border-radius:5px;
+}
+.appointmentTop .swiper-slide .swiperView>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.swiperCenter{margin: 14px 0;}
+.swiperMsg{
+    font-size:.2rem;
+    font-family:Microsoft YaHei;
+    color:rgba(127,127,127,1);
+}
+.swiperMsg img{height: 13px;}
+.swiperToggle{  
+    font-size:.24rem;
+    font-family:Microsoft YaHei;
+    color:rgba(67,67,67,1);
+}
+.swiperToggle img{height: 11px;}
+.swiperCon{width: 100%;}
+.swiperTitle{
+    font-size:.28rem;
+    font-family:Microsoft YaHei;
+    color:#444444;
+}
+.swiperTxt{
+    font-size:.2rem;
+    font-family:Microsoft YaHei;
+    color:#444444;
+    margin: 9px 0;
+}
+
+
+
+.swiperPic{width: 70px;margin-right: 10px;}
+.appointmentCon{
+    background: #F8F7FC;
+    padding: 15px ;
+}
+.personItem{display: flex;}
+.personCon{width: 100%;}
+.personCon .center img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    margin-right: 1vw;
+}
+.personCon .center img:last-child{margin-right: 0;}
+.personCon .center{margin: 10px 0;font-size: 0;}
+.personCon .end img{
+    height: 12px;
+}
+.end span{
+    margin-left: 5px; 
+    vertical-align: middle;
+    font-size:.24rem;
+}
+.end>div{display: inline-block;margin-right: 26px;}
+.hp span{color:rgba(253,110,149,1);}
+.yy span{color:rgba(128,128,128,1);}
+.personCon .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personName{
+    font-size:.3rem;
+    color:rgba(68,68,68,1);
+}
+.personNum{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+}
+.personTag{margin-top: 10px;}
+.proTitle{
+    font-size:.28rem;
+    color:rgba(67,67,67,1);
+}
+.proTxt{
+    display: -webkit-box;
+    font-size:.24rem;
+    color:rgba(193,193,193,1);
+    margin: 9px 0 15px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+.proItem a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.proItem img{width: 75px;}
+
+.toggleList{display: none;}
+.toggleList.current{display: block;}
+.swiperIcon{width: 18px;}
+
+/* 预约中心*/
+.projectList{
+    margin-top: 38px;
+    padding: 15px 0;
+}
+.projectItem{
+    display: flex;    
+    align-items: center;
+    border-radius: 0;
+}
+.projectPic{
+    width: 75px;
+    margin: 0 10px;
+}
+.projectCon{
+    overflow: hidden;
+    width: 100%;
+}
+.bottomTotal div{
+    font-size:.26rem;
+    color:rgba(67,67,67,1);
+}
+.bottomTotal div span{color: #E5433F;}
+.bottomTotal p{font-size:.24rem;}
+/* 预约项目*/
+.ad-card{
+    width:90%;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 5px 0px rgba(255,173,188,0.6);
+    border-radius:7px;
+    margin: auto;
+    padding: 15px;
+}
+.ad-top{padding: 15px 0;}
+.cardTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.cardAvatar{
+    width: 75px;
+    margin-right: 14px;
+}
+.cardCon{width: 100%;}
+.cardTitle{font-size:.32rem;}
+.cardTxt{
+    font-size: .24rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+.cardTBottom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.cardItem{
+    flex-basis: auto;
+    width: 33.3%;
+    text-align: center;
+}
+.cardItem:nth-of-type(2){
+    border-left: 2px solid #FD6D95;
+    border-right: 2px solid #FD6D95;
+}
+.cardItem p{font-size:.26rem;line-height: .4rem;}
+.cardItem p:first-child{color: #FD6D95;}
+.ad-txt{
+    padding: 0 15px;
+    margin: 28px 0 15px;
+}
+.ad-view{  padding: 0 15px;}
+.ad-title{
+    font-size:.32rem;
+    font-weight:400;
+    margin-bottom: 9px;
+}
+.ad-txt p{
+    font-size:.24rem;
+    line-height:.4rem;
+    color: #7F7F7F;
+}
+.ad-tag span{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 9px ;
+    height:20px;
+    line-height: 20px;
+    background:rgba(193,193,193,1);
+    border-radius:2px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.ad-tag .s{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.appointmentView{
+    padding: 15px;
+    margin-top: 9px;
+    background: #ffffff;
+}
+.appointmentView h4{
+    font-size:.32rem;
+    font-weight:400;
+    margin-bottom: 14px;
+}
+.worksList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.workItem{
+    flex-basis: auto;
+    width: 48%;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+.workItem img{width: 100%;}
+.workName{
+    width: 100%;
+    font-size:12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 9px 0;
+    padding: 0 9px;
+}
+
+.appointmentView h4 span{
+    font-size:.24rem;
+    font-weight:400;
+    color:rgba(253,109,149,1);
+}
+
+.commentItem{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 15px;
+    background: #ffffff;
+}
+.sAvatar{
+    width: 40px;
+    height: 40px;
+    margin-right: 9px;
+}
+.commentCon{overflow: hidden;}
+.commentName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commentTitle{
+    font-size:.24rem;
+    margin: 9px 0;
+}
+.commentName{
+    font-size:.28rem;
+}
+.commentTime{
+    font-size:.24rem;
+    color:rgba(193,193,193,1);
+} 
+.commentTxt{font-size:.24rem;margin-top: 9px;}
+.ad-num{
+    font-size:.28rem;
+    color:rgba(253,109,149,1);
+}
+.ad-btn img{width: 14px;margin-right: 5px;}
+.ad-btn span{
+    font-size:.28rem;
+    vertical-align: middle;
+
+}
+.ad-btn>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/* 技师详情*/
+.workView{padding: 15px ;}
+
+.orderTop{justify-content: space-between;}
+.orderProject{display: flex;}
+.personMsg,.orderTop{
+    display: flex;
+    align-items: center;
+}
+.orderProjectBox{
+    display: flex;
+    align-items: center;
+}
+.orderProjectBox>img{
+    width: 50px;
+    margin: 0 7px ;
+}
+.orderTop{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #C2C2C2;
+}
+.orderTop p{
+    font-size:.28rem;
+    color:rgba(128,128,128,1);
+}
+.orderStatus{
+    color: #E64340!important;
+    font-size:.28rem;
+}
+.personMsgCon{width: 100%;}
+.personMsgCon p span{
+    font-size:.32rem;
+    color:rgba(68,68,68,1);
+}
+.personMsgCon p span:last-child{
+    font-size:.24rem;
+    color: #444444;
+    margin-left: 15px;
+}
+.orderProject{
+    font-size:.24rem;
+    color:rgba(128,128,128,1);
+    margin:15px 0 20px;
+}
+.orderProjectBox{flex: 1;}
+.personMsg .sAvatar{width: 70px;height: auto;}
+.orderProjectCon p{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+    margin-bottom: 10px;
+}
+.orderProjectCon div span{
+    font-size:.24rem;
+    color:rgba(230,67,64,1);
+}
+.orderBtn{
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+.orderBtn a{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+/* 我的预约*/
+.dTime{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+    margin:10px  0 20px;
+}
+.aod-phone{
+    justify-content: space-between;
+    padding: 12px 0;
+}
+.aod-adress{
+    font-size:.24rem;
+    color:rgba(68,68,68,1);
+    line-height:18px;
+    margin-bottom: 26px;
+}
+.aod-title{margin-bottom: 15px;}
+.aod-title img{width: 16px;}
+.aod-title span{
+    font-size:.26rem;
+    color:rgba(68,68,68,1);
+    vertical-align: middle;
+}
+/* 预约详情*/
+.commentView{
+    margin-bottom: 0;
+    padding: 15px;
+}
+/* 评论*/
+.buyTop{
+    background: #ffffff;
+    width: 100%;
+    padding: 15px 15px 0 15px;
+}
+.buyLine{
+    width:100%;
+    height:1px;
+    background:rgba(232,232,232,1);
+    margin: 10px 0;
+}
+.buyTab{margin: 0;margin-top: 20px;}
+.buyTab a {
+    font-size: .28rem;
+    color: #7F7F7F;
+}
+.buyTab a p{font-size: .24rem;    margin-top: 4px;}
+.buyView{padding: 15px ;}
+.buyBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.buyTitle{
+    display: flex;
+    align-items: center;
+}
+.buyTitle i{
+    display: block;
+    width:2px;
+    height:18px;
+    background:rgba(245,203,43,1);
+    border-radius:1px;
+}
+.buyTitle span{
+    font-size:.28rem;
+    color:rgba(245,203,43,1);
+    margin: 0 10px;
+}
+.buyTitle img{width: 13px;}
+.timeIcon{
+    width: 19px;
+}
+.buyTagList{display: none;}
+.buyItem:first-child .buyTagList{display: block;}
+.buyTag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.buyTag span{
+    flex-basis: auto;
+    display: block;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    background: #ffffff;
+    border-radius:5px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.buyTag span.current{
+    border: 1px solid #E5433F;
+}
+.buyTag span.current::before{
+    content: '';
+    background-image: url(../images/appointment/selected.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+}
+.BuyToggleBtn{
+    transform: rotateZ(180deg);
+    transition: .6s;
+}
+.buyItem:first-child .BuyToggleBtn{
+    transform: rotateZ(0);
+}
+.buyItem:first-child .BuyToggleBtn.open{transform: rotateZ(180deg);}
+.BuyToggleBtn.open{
+    transform: rotateZ(0);
+}
+.buyItem{margin-bottom: 15px;}
+.buyItem:nth-of-type(2) .buyTitle span{color: #F18F3B;}
+.buyItem:nth-of-type(3) .buyTitle span{color: #35B7A3;}
+
+.buyItem:nth-of-type(2) .buyTitle i{background:#F18F3B ;}
+.buyItem:nth-of-type(3) .buyTitle i{background:#35B7A3 ;}
+.buyTop h5{
+    font-size:.26rem;
+    color:rgba(67,67,67,1);
+    margin-bottom: 15px;
+}
+.buyTime{font-size: .24rem;}
+.buyTime span{color: #E5433F;}
+/* 下单*/
+body{background: #F8F7FC;}
+.storeTop{background: #ffffff;}
+.locationView{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.locationBtn{
+    font-size:.28rem;
+    color:rgba(68,68,68,1);
+    flex-basis: auto;
+}
+
+
+.storeList{
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.storeItem>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.storeCon{
+    margin: 0 8px;
+}
+.storePic{width: 50px;}
+.storeIcon{
+    display: block;
+    width: 22px;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+.storeTxt{
+    font-size:10px;
+    color:rgba(128,128,128,1);
+    margin: 1vw 0;
+}
+.storeTitle{
+    font-size:14px;
+    color:rgba(68,68,68,1);
+}
+.storeAd{margin-top: 10px;}
+/*门店*/
+.cartCtrl{
+    padding: 0 15px;
+    text-align: right;
+    margin-top: 10px;
+}
+.cartCtrl button{
+    background: transparent;
+    border: 0;
+}
+.cartCtrl span{margin: 0 6px;}
+.itemCheckbox,.allCheckbox{display: none;}
+.item label{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 33px;
+    height: 23px;
+    border: 1px solid #C2C2C2;
+}
+.bottomView .flag{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #C2C2C2;
+}
+.item .itemCheckbox:checked+label,.bottomView .allCheckbox:checked+label{
+    background: url(../images/checked.png);
+    background-size: cover;
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,999 @@
+    .content {
+        overflow: hidden;
+        margin-top: 9vh;
+    }
+
+    .idxToggleList .item{
+        box-shadow: 0 0px 8px  rgba(0, 0, 0, .15) ;
+    }
+    /* 搜索框 */
+    
+    .searchHome {
+        padding: 4vw 0;
+        width: 100vw;
+        position: fixed;
+        background-color: #fff;
+        height: 9vh;
+        z-index: 3;
+        top: 0;
+    }
+    
+    .swipe {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .shopLogo {
+        width: 18vw;
+        height: 11vh;
+        margin-left: 7%;
+        margin-top: 4%;
+    }
+    
+    .homeScroll {
+        height: 22vh;
+    }
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
+        width: 16vw;
+        min-height: 3rem;
+        border-radius: 5px;
+        margin-top: 2vw;
+    }
+    
+    .logoTxt {
+        font-size: 1.1rem;
+        font-family: 微软雅黑 Regular;
+        letter-spacing: .1rem;
+        margin-left: 3%;
+        margin-top: .5rem;
+        position: absolute;
+    }
+    
+    .Row1-tips {
+        display: inline-block;
+        position: absolute;
+        margin-top: 8vh;
+        margin-left: 3vw;
+    }
+    
+    .Tag-r div {
+        background-color: rgb(208, 208, 208);
+    }
+    
+    .Tag-r div span {
+        background-color: rgb(208, 208, 208);
+        font-weight: 400;
+    }
+    
+    .toSeeAllBtn {
+        width: 100vw;
+    }
+    
+    .daysCommendImg {
+        min-height: 20vh;
+    }
+    
+    .openTime {
+        font-size: .6rem;
+        margin-left: 3%;
+        margin-top: 5vh;
+        letter-spacing: .1rem;
+        margin-bottom: .8rem;
+        display: inline-block;
+        font-family: "微软雅黑 Light";
+    }
+    
+    .swiper-slide {
+        /* height: auto; */
+        width: 88vw !important;
+        transform: scale(0.8);
+        transition: .8s;
+        margin: 0 -2.6vw;
+    }
+    
+    .swiper-slide-active {
+        transform: scale(1);
+    }
+    
+    .swiper-border {
+        border-radius: 5px;
+    }
+    
+    .contect {
+        padding: 4vw;
+        border-bottom: 1px solid rgb(232, 232, 232);
+    }
+    
+    .turn {
+        position: absolute;
+        right: 4vw;
+        width: 7vw;
+        margin-top: 1vw;
+    }
+    
+    .searchInput {
+        width: 90vw;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .search label>img {
+        left: 35px;
+    }
+    
+    .phone {
+        position: absolute;
+        right: 4vw;
+        width: 7vw;
+        margin-top: 10vw;
+    }
+    
+    .location {
+        padding-top: 2vh;
+        padding-bottom: 5%;
+        position: relative;
+    }
+    
+    .cardChoose {
+        background-color: #F8F7FC;
+        padding: 3vw 0;
+        position: relative;
+        /* display: none; */
+    }
+    
+    .cardChooseLeft {
+        width: 48vw;
+        background-color: #fff;
+        padding: 3vw;
+        display: inline-block;
+        box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cardChooseLeftBuy {
+        padding: 3vw;
+        background-color: #ffffff;
+        position: absolute;
+        top: 3vw;
+        left: 0;
+        width: 49vw;
+    }
+    
+    .cardChooseSmallPic {
+        width: 18vw !important;
+    }
+    
+    .timeImg {
+        width: 4vw;
+    }
+    
+    .timeImg2 {
+        width: 3vw;
+    }
+    
+    .cardChooseLeftRow1 :nth-child(2) {
+        display: inline-block;
+        width: 23vw;
+        margin-left: 3vw;
+    }
+    
+    .cardChooseLeftRow2 {
+        color: #808080;
+        font-size: 10px;
+        padding: 1.5vh 0;
+    }
+    
+    .cardChooseRight {
+        display: inline-block;
+        background-color: #F8F7FC;
+        width: 49vw;
+    }
+    
+    .cardChooseRightGift {
+        width: 4vw;
+        height: 4vw;
+        margin-right: 2vw;
+        display: inline-block;
+    }
+    
+    .NewOneTex {
+        position: relative;
+    }
+    
+    .NewOneTex span {
+        color: #F05080;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+    
+    .NewOneTex p {
+        font-size: 10px;
+        padding: 1.5vh 0;
+        display: inline-block;
+        color: #808080;
+        max-width: 30vw;
+        min-width: 25vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    .cardChooseRightNew {
+        padding: 3vw;
+        background-color: #fff;
+        position: absolute;
+        top: 3vw;
+        width: 49vw;
+        right: 0;
+        box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cardChoose2 {
+        height: 130px;
+        position: relative;
+        background-color: #F8F7FC;
+        padding: 3vw 0;
+    }
+    
+    .cardChoose3 {
+        height: 130px;
+        position: relative;
+        background-color: #f8f7fc;
+        padding: 3vw 0;
+    }
+    
+    .NewOnePrice {
+        width: 12vw;
+        height: 5vw;
+        background-color: #e64340;
+        color: #fff !important;
+        display: block;
+        text-align: center;
+        border-radius: 9px;
+        line-height: 1.8;
+    }
+    
+    .swap {
+        color: #EFA61F !important;
+    }
+    /* 剩余时间 */
+    
+    .LeftTimeHome span {
+        background-color: #E64440;
+        width: 6vw;
+        height: 4vw;
+        color: #fff;
+        text-align: center;
+        font-size: .8rem;
+        line-height: 1.2;
+    }
+    
+    .remainTime small {
+        color: #E64440;
+    }
+    
+    .cardChoose3 .cardChooseLeftBuy {
+        width: 100vw;
+        box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cardChoose3Pics {
+        position: absolute;
+        right: 2vw;
+        top: 2vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .toSeeAll {
+        width: 170px;
+        height: 30px;
+        border: 1px solid #E64440;
+        display: block;
+        border-radius: 5px;
+        color: #E64440;
+        text-align: center;
+        margin: 3vh auto;
+        font-size: 15px;
+        padding: 3px 0;
+    }
+    
+    .cardChoose3Pics a {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin-left: 3vw;
+    }
+    
+    .cardChoosePic {
+        width: 90px;
+        height: 90px;
+        display: block;
+        margin: 2vh auto;
+        margin-bottom: 0;
+        position: relative;
+        margin-bottom: 2vh;
+    }
+    
+    .cardChoosePic span {
+        width: 40px;
+        height: 40px;
+        background-color: #e64340;
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        line-height: 2.8;
+        text-align: center;
+    }
+    
+    .cardChoosePic span small {
+        font-size: 9px;
+    }
+    
+    .cardChooseRightPic {
+        width: 15vw;
+        height: 15vw;
+        display: inline-block;
+        position: absolute;
+        top: 2vw;
+        right: 0;
+    }
+    
+    .cardChooseRightCord {
+        padding: 3vw;
+        background-color: #fff;
+        position: absolute;
+        bottom: 3vw;
+        width: 49vw;
+        right: 0;
+    }
+    
+    .swiper-slide2 {
+        transform: scale(1);
+        width: 100vw !important;
+        margin: 0;
+    }
+    
+    .swiper-pagination-v {
+        background-color: #DCDCDC;
+        width: 20px;
+        height: 4px;
+        display: inline-block;
+        border-radius: 5px;
+        margin: 0 5px;
+        /* box-shadow: 0 0 2px  #000; */
+    }
+    
+    .swiper-pagination-active {
+        background-color: #E55422 !important;
+    }
+    /*注释*/
+    
+    .detailLocation {
+        font-size: .9rem;
+        position: absolute;
+        margin-left: 1vw
+    }
+    
+    .link {
+        border: 1px solid #ccc;
+        padding: 1vw;
+        color: #fff;
+        background: rgba(68, 68, 68, 1);
+        text-decoration: none;
+        font-size: .8rem;
+        border-radius: 1rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .chooseContent {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5% 0;
+        width: 100vw;
+    }
+    
+    .pic {
+        width: 20vw;
+        height: 10vh;
+        text-align: center;
+    }
+    
+    .pic p {
+        font-size: .6rem;
+        text-align: center;
+        margin-top: .2rem;
+    }
+    
+    .choosepic {
+        width: 6vw;
+        height: 6vw;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .space {
+        height: 3vh;
+        width: 100%;
+        /* background-color: rgb(248, 248, 250); */
+        background: rgb(248, 248, 250);
+    }
+    
+    .bigfont {
+        font-family: "微软雅黑 Regular";
+        font-size: 1rem;
+        color: #444444;
+    }
+    
+    .more {
+        float: right;
+        font-size: .9rem;
+        color: #808080;
+    }
+    
+    .hiddenBox {
+        position: relative;
+        height: 23vh;
+        overflow: hidden;
+        overflow-x: auto;
+        top: 1.2vh;
+        padding-bottom: 7vh;
+        margin: 0 2.5vw;
+    }
+    
+    .hiddenScroll {
+        overflow: hidden;
+    }
+    
+    .scrollBox {
+        display: flex;
+        /* width: 200% */
+        position: absolute;
+        padding-bottom: 1vh;
+        top: 0;
+        left: 0;
+    }
+    
+    .face {
+        width: 45vw;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+    
+    .face img {
+        max-width: 100%;
+        height: 20vh;
+        min-width: 45vw;
+    }
+    
+    .face p {
+        font-size: .9rem;
+        color: #444444;
+        text-align: center;
+    }
+    
+    .face span {
+        font-size: .7rem;
+        color: #e64340;
+        font-weight: 550;
+        margin-top: 1vw;
+        margin-left: 1vw;
+    }
+    
+    .face button {
+        border: none;
+        border-radius: 15%;
+        background-color: rgb(230, 71, 68);
+        padding: 2vw;
+        color: #fff;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3vh;
+    }
+    
+    .leftPic {
+        position: relative;
+    }
+    
+    .leftCri {
+        left: 0;
+        top: 0;
+        background: url(/assets/theme/mobile/images/home/cut/leftCri.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 13vw;
+        height: 6vh;
+        position: absolute;
+        font-size: .9rem;
+        text-align: center;
+        color: #fff;
+        line-height: 1.9rem;
+    }
+    
+    .join {
+        background: url(/assets/theme/mobile/images/home/cut/join.png);
+        background-size: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2.5vh;
+        width: 42vw;
+        font-size: .8rem;
+        color: #fff;
+        padding-left: 3vw;
+    }
+    
+    .old {
+        font-size: .8rem;
+        text-decoration: line-through;
+        margin-left: 4vw;
+    }
+    
+    .Commend {
+        display: flex;
+        flex-wrap: wrap;
+        /*margin-left: 2vw;*/
+    }
+    
+    .daysCommend {
+        width: 44vw;
+        margin-right: 1.5vw;
+        margin-left: 1.5vw;
+        margin-top: 3vh;
+        text-align: center;
+        position: relative;
+    }
+    
+    .daysCommend img {
+        max-width: 100%;
+        background-size: cover;
+    }
+    
+    .daysCommend p {
+        color: #444444;
+        font-size: .9rem;
+        margin: 2vw 0;
+        margin-bottom: 3vh;
+    }
+    
+    .pay {
+        color: #808080;
+        font-size: .8rem;
+        float: right;
+        margin-right: 3vw;
+    }
+    
+    .money {
+        color: #e64340;
+        font-weight: 550;
+        font-size: 13px;
+    }
+    
+    .joinMoney {
+        padding-top: 1vh;
+    }
+    
+    .oldPrice {
+        color: #c2c2c2;
+        display: block;
+        font-size: 8px;
+        position: absolute;
+        bottom: 3vh;
+        left: 5vw;
+        text-decoration: line-through;
+    }
+    
+    .avatar {
+        width: 18vw;
+        height: 18vw;
+        display: inline-block;
+    }
+    
+    .avatar img {
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .beauty {
+        margin-left: 2vw;
+    }
+    
+    .row :last-child {
+        margin-bottom: 5vh;
+    }
+    
+    .introduce {
+        position: absolute;
+        display: inline-block;
+        width: 80vw;
+    }
+    
+    .introduce img {
+        margin-left: 25vw;
+        height: 3vh;
+    }
+    
+    .introduce button {
+        border: none;
+        border-radius: 10%;
+        background-color: rgb(230, 71, 68);
+        font-size: 1rem;
+        color: #fff;
+        letter-spacing: 1vw;
+        padding: 1vw 3vw;
+        text-align: center;
+        float: right;
+        margin-right: 3vw;
+        font-weight: 550;
+        box-shadow: 1vw 1vw 1vw #888888;
+    }
+    
+    .name {
+        width: 18vw;
+        height: 3vh;
+        overflow: hidden;
+        color: #444444;
+        font-size: 1.1rem;
+        position: absolute;
+        top: 0;
+        margin-left: 1rem;
+        line-height: 3vh;
+    }
+    
+    .job {
+        font-size: .8rem;
+        color: #808080;
+        margin-left: 10vw;
+        vertical-align: top;
+    }
+    
+    .row {
+        margin-top: 3vh;
+    }
+    
+    .row2 {
+        margin-left: 4vw;
+        margin-top: 1vh;
+    }
+    
+    .row2 span {
+        background-color: rgb(128, 128, 128);
+        color: #fff;
+        padding: 1vw;
+        font-size: .7rem;
+        letter-spacing: .1rem;
+        border-radius: 10%;
+        margin-right: 2vw;
+    }
+    
+    .times {
+        color: #808080;
+        font-size: .9rem;
+        margin-top: 1vh;
+    }
+    
+    .bottom {
+        padding-top: 1vh;
+        border-top: 1px solid rgb(224, 224, 224);
+        position: fixed;
+        bottom: 0;
+        background-color: #fff;
+    }
+    /* .bottom span{
+    display: inline-block;
+    width: 24vw;
+    text-align: center;
+    height: 3vh;
+    font-size: .8rem;
+} */
+    
+    .toJoin {
+        display: inline-block;
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0;
+        line-height: 1.5;
+        margin-right: 2vw;
+    }
+    
+    #changeBottom {
+        display: flex;
+    }
+    
+    #changeBottom span {
+        display: inline-block;
+        width: 25vw;
+        text-align: center;
+        height: 3vh;
+        font-size: .8rem;
+    }
+    
+    .bottomTex {
+        display: flex;
+    }
+    
+    .bottomTex span {
+        display: inline-block;
+        width: 25vw;
+        text-align: center;
+        height: 3vh;
+        font-size: .8rem;
+    }
+    
+    .bottom img {
+        max-width: 100%;
+        height: 100%;
+    }
+    
+    .detailNewPosition {
+        bottom: 10vh;
+        left: 2vw;
+        z-index: 0;
+    }
+    
+    .commendCri {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 42px;
+        height: 42px;
+    }
+    
+    .commendCri span {
+        position: absolute;
+        color: #ffffff;
+        font-size: 10px;
+        top: 1vh;
+    }
+    
+    .superKill {
+        height: 37vh;
+        position: relative;
+    }
+    
+    .superKill a {
+        /* height: 36vh; */
+    }
+    
+    .superKillList {
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .superKillList div {
+        width: 26vw;
+    }
+    
+    .superKillDetail {
+        background-color: #ffffff;
+        padding: 1vw;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    .superKillDetail :first-child {
+        color: #e64340;
+        display: block;
+        font-size: 10px;
+        margin-bottom: .3vh;
+    }
+    
+    .superKillDetail :nth-child(2) {
+        font-size: 9px;
+    }
+    
+    .homeMenus {
+        padding: 3vw;
+        margin-bottom: 6vh;
+    }
+    
+    .commendPic {
+        height: 208px;
+        min-height: 20vh;
+    }
+    
+    .switchMenus {
+        width: 94vw;
+        display: flex;
+    }
+    
+    .switchMenus div {
+        width: 31vw;
+        text-align: center;
+        display: inline-block;
+        color: #c2c2c2;
+        font-size: 12px;
+    }
+    
+    .switchMenus span {
+        font-size: 16px;
+        color: #444444;
+        display: block;
+        margin-bottom: 1vw;
+    }
+    
+    .active {
+        background-image: url(../../images/home/active.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 55px;
+        background-size: 20%;
+        color: #e64340 !important;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .appointmentCon {
+        background-color: #F8F7FC;
+        padding: 15px;
+    }
+    
+    .personItem {
+        display: flex;
+    }
+    
+    .sAvatar {
+        width: 40px;
+        height: 40px;
+        margin-right: 9px;
+    }
+    
+    .personCon {
+        width: 100%;
+    }
+    
+    .personCon .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .personCon .center {
+        margin: 10px 0;
+        font-size: 0;
+    }
+    
+    .personCon .center img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 45px;
+        margin-right: 1vw;
+    }
+    
+    .end>div {
+        display: inline-block;
+        margin-right: 26px;
+    }
+    
+    .personCon .end img {
+        height: 12px;
+    }
+    
+    .hp span {
+        color: rgba(253, 110, 149, 1);
+    }
+    
+    .end span {
+        margin-left: 5px;
+        vertical-align: middle;
+        font-size: .24rem;
+    }
+    
+    .personTag {
+        margin-top: 10px;
+    }
+    
+    .homeBtn {
+        width: 60px;
+        height: 25px;
+        padding: 3px 10px;
+    }
+    /* 兼容iPad */
+    
+    @media(min-width: 768px) {
+        html {
+            font-size: 1.8rem;
+        }
+        .location span {
+            font-size: .6rem;
+        }
+        .link {
+            font-size: .6rem;
+        }
+        .face button {
+            font-size: .9rem;
+        }
+        .NewOneTex p {
+            min-width: 30vw;
+            font-size: 16px;
+        }
+        .NewOneTex span {
+            font-size: 13px;
+        }
+        .NewOnePrice {
+            height: 4vw;
+            line-height: 2.5;
+        }
+        .cardChoosePic {
+            width: 110px;
+            height: 110px;
+            margin: 5vh auto;
+            margin-bottom: 0vh;
+        }
+        .LeftTimeHome span {
+            width: 4vw;
+            height: 2vw;
+            font-size: 10px;
+        }
+        .remainTime small {
+            font-size: .5rem;
+        }
+        .cardChoose2 {
+            height: 185px;
+        }
+        .cardChoose3 {
+            height: 208px;
+        }
+        .cardChoose3Pics a {
+            width: 90px;
+        }
+        .superKill {
+            height: 48vh;
+        }
+        .active {
+            height: 70px;
+        }
+        .daysCommend {
+            width: 28vw;
+        }
+        .commendPic {
+            height: 208px;
+            min-height: 20vh;
+        }
+        .detailNew {
+            width: 8vw;
+        }
+        .commendCri {
+            margin-left: .5vw;
+        }
+        .daysCommend p {
+            font-size: .6rem;
+        }
+        .toJoin {
+            width: 62px;
+            height: 24px;
+            line-height: 1.8;
+        }
+        .pay {
+            font-size: .5rem;
+        }
+        .search label>img {
+            left: 50px;
+        }
+        .cardChooseLeft {
+            padding-bottom: 6vh;
+        }
+    }
+    /* 兼容5/6字体 */
+    
+    @media(max-width:375px) {
+        .face p {
+            font-size: .7rem;
+            height: 2.5vh;
+            overflow: hidden;
+        }
+    }

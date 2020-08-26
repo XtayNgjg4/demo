@@ -1,0 +1,656 @@
+.top-detail {
+    /* height: 35vh; */
+    overflow: hidden;
+    margin-top: 6vh;
+    position: relative;
+}
+
+.swipe {
+    height: 36vh;
+}
+
+.tips {
+    background-image: url(../../images/myjoin/corn/cirle.png);
+}
+
+.row1 {
+    padding: 1vw;
+}
+
+.row2 {
+    padding-bottom: 2vh;
+}
+
+.joinCos {
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    display: inline-block;
+}
+
+.hasJoin {
+    font-size: .9rem;
+    margin-left: 5vw !important;
+    margin-top: .5vh;
+}
+
+.toEnd {
+    float: right;
+    font-size: .8rem;
+    color: #fff;
+    margin-right: 16vw;
+    margin-top: 1vh;
+}
+
+.oldPri {
+    text-decoration: line-through;
+    color: #fff;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    font-size: .8rem;
+    letter-spacing: 0;
+}
+
+.swiper-slide span {
+    position: absolute;
+    right: 4vw;
+    bottom: 2vh;
+    display: block;
+    width: 10vw;
+    height: 2.5vh;
+    background: rgb(239, 223, 215);
+    border-radius: 17px;
+    text-align: center;
+    font-size: .8rem;
+    color: #444444;
+}
+
+.swiperSize {
+    position: absolute;
+    right: 4vw;
+    left: 85vw;
+    bottom: 2vh;
+    display: block;
+    width: 10vw;
+    height: 2.5vh;
+    background: rgb(239, 223, 215);
+    border-radius: 17px;
+    text-align: center;
+    font-size: .8rem;
+    color: #444444;
+    z-index: 7;
+}
+
+.newJoinTip {
+    padding: 0 5vw;
+}
+
+.introduce {
+    position: relative;
+    padding-bottom: 2vh;
+}
+
+.TexIntroduced {
+    width: 78vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    letter-spacing: .1rem;
+    font-weight: 520;
+    color: #444444;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.peoples {
+    display: inline-block;
+    width: 13vw;
+    height: 3vh;
+    background: rgb(230, 70, 67);
+    color: #fff;
+    font-size: .9rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.2rem;
+    margin-right: 2vw;
+}
+
+.share {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    right: 5vw;
+    top: 2vh;
+    font-size: .7rem;
+    height: 8vh;
+    width: 8vw;
+    color: #c2c2c2;
+}
+
+.share img {
+    width: 75%;
+    height: auto;
+}
+
+.shareWithOtherSpace {
+    height: 1vh;
+}
+
+.detailOpenTime {
+    font-size: .8rem;
+}
+
+.message {
+    color: #c2c2c2;
+    font-size: .9rem;
+    margin-left: 5vw;
+    display: inline-block;
+    margin-top: 4vw;
+}
+
+.anyPeoples {
+    font-size: .9rem;
+    color: #444444;
+}
+
+.checkAll {
+    float: right;
+    color: #808080;
+    font-size: .8rem;
+}
+
+.joinOther {
+    padding: 5vw;
+}
+
+.joinOne {
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+
+.joinOther :last-child {
+    margin-bottom: 0;
+}
+
+.joinOther :first-child {}
+
+.remainTime {
+    float: right;
+    margin-right: 3vw;
+}
+
+.everyTime {
+    display: inline;
+}
+
+.detailJoinScroll {
+    max-height: 40vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.remainTime span {
+    width: 8vw;
+    font-size: .8rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.toJoin {
+    background-color: rgb(238, 68, 68);
+    border: none;
+    padding: 2vw 3vw;
+    border-radius: 5px;
+    margin-top: 4vw;
+}
+
+.detailContent {
+    margin-bottom: 12vh;
+}
+
+.detailNew img {
+    max-width: 100%;
+}
+
+
+/* 冒泡提示 */
+
+.detailBubble {
+    position: absolute;
+    z-index: 10;
+    top: 3vh;
+    left: 4vw;
+    padding: 1vw;
+    border-radius: 10px;
+    background-color: #333333;
+    opacity: .8;
+    vertical-align: middle;
+    display: none;
+}
+
+.detailBubbleImg {
+    width: 6vw;
+    display: inline-block;
+    height: 6vw;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.detailBubbleImg img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.detailBubbleTex {
+    color: #fff;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .7rem;
+    max-width: 25vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.leftPeople {
+    float: right;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.location {
+    color: #a0a0a0;
+    font-size: .9rem;
+    border-bottom: none;
+    padding: 0 2vh 4vw;
+}
+
+.location div {
+    display: inline-block;
+    width: 5vw;
+    margin: 0 3vw;
+}
+
+.location img {
+    max-width: 100%;
+}
+
+.logo {
+    width: 16vw;
+    margin-left: 2vw;
+}
+
+.intoShop {
+    float: right;
+    color: #e64643;
+    border: 1.5px solid rgb(235, 85, 85);
+    background-color: #fff;
+    margin-right: 2vw;
+    padding: 1vw 3vw;
+    margin-top: 3vh;
+    border-radius: 15px;
+}
+
+.link {
+    right: 4vw;
+}
+
+.selectMenu {
+    padding: 4vw;
+}
+
+.selectMenu span {
+    font-size: 1.1rem;
+    margin-right: 6vw;
+}
+
+.active {
+    background-image: url(../../images/detail/selectbottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 60%;
+    padding-bottom: 2vh;
+}
+
+.titleH1 {
+    margin: 0 15vw;
+    text-align: center;
+}
+
+.titleH1 div {
+    margin: 0 13vw;
+    text-align: center;
+}
+
+.detailImg {
+    max-width: 100vw;
+    width: 100vw;
+}
+
+.detailImg img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.followTitleH1 {
+    padding: 0 18vw;
+    text-align: center;
+}
+
+.bottom span img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.bottom {
+    display: inline-block;
+    position: static;
+    padding: 2vh 0;
+}
+
+#changeBottom span {
+    width: 15vw;
+}
+
+.bottomTex span {
+    width: 15vw;
+}
+
+.buyBottom {
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.buyAlone {
+    height: 7vh;
+    background-color: #fff;
+    color: #e64643;
+    border: 1px solid #e64643;
+    width: 22vw;
+    text-align: center;
+    padding: 1vw;
+    border-radius: 10px;
+    font-weight: 550;
+    padding: 1vw;
+    letter-spacing: .1rem;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    /* font-size: 1rem; */
+    padding-bottom: 1vw;
+}
+
+.redButton {
+    width: 60vw;
+    height: 6vh;
+    margin: 2.5vh 0;
+    letter-spacing: 4vw;
+    border-radius: 10px;
+}
+
+.buyWithOther {
+    background: #e64643;
+    color: #fff;
+    font-size: .9rem;
+    border-radius: 10px;
+    border: none;
+    width: 35vw;
+    letter-spacing: .2rem;
+    padding: 1vw;
+}
+
+#changeBottom span img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.detailLinkLeft {
+    display: inline-block;
+    padding-top: 2vh;
+}
+
+.detailLink {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100vw;
+    display: flex;
+    padding: 2vh;
+    padding-top: 1vh;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.joinOtherNum {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding-bottom: 2vh;
+}
+
+.MenuTwo {
+    display: none;
+    padding: 4vw;
+    margin-bottom: 5vh;
+}
+
+.MenuTwo div {
+    margin: 2vh 0;
+}
+
+.MenuTwo span {
+    color: #808080;
+    margin-right: 5vw;
+}
+
+.detailJoining {
+    padding: 3vw;
+    width: 75vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    z-index: 110;
+    padding-bottom: 5vh;
+}
+
+.detailTitle {
+    text-align: center;
+    color: #444444;
+    font-weight: 550;
+    letter-spacing: .5vw;
+    font-size: 1.1rem;
+}
+
+.detailJoiningPeople {
+    padding: 2vh 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.detailCancel {
+    height: 5vh;
+}
+
+.detailCancel img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.detailOtherPeople {
+    display: inline-block;
+    width: 37vw;
+    vertical-align: bottom;
+}
+
+.detailName {
+    padding-bottom: 1vh;
+    margin-left: 2vw;
+    color: #444444;
+    font-size: .9rem;
+}
+
+.detailLeftTime {
+    color: #808080;
+    font-size: .9rem;
+    padding-bottom: 1vh;
+    margin-left: 2vw;
+}
+
+.detailCancelWidth {
+    width: 7vw;
+    height: 7vw;
+    float: right;
+}
+
+.detailOutsize {
+    margin-left: 0vw;
+}
+
+
+/* 深入的拼单 */
+
+.detailDeepJoing {
+    position: absolute;
+    width: 70vw;
+    background-color: #fff;
+    z-index: 120;
+    top: 28vh;
+    border-radius: 10px;
+    left: 15vw;
+    padding: 3vw;
+}
+
+.showDetailDeep {
+    display: none;
+}
+
+.detailDeepButton {
+    text-align: center;
+}
+
+.detailTitle p {
+    color: #808080;
+    font-size: .8rem;
+}
+
+.detailComfirmPeople {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 3vh 8vw;
+}
+
+.avatar {
+    margin: 0 2vw;
+}
+
+.captain {
+    position: absolute;
+}
+
+
+/* 显示隐藏正在拼单 */
+
+.showDetailJoing {
+    position: absolute;
+    left: 9.5vw;
+    top: 22vh;
+    background-color: #fff;
+    display: none;
+}
+
+
+/* wx隐藏显示 */
+
+#showWx {
+    display: none;
+}
+
+
+/* size隐藏 */
+
+.showDetailSize {
+    display: none;
+}
+
+
+/* 规格size */
+
+.detailChooseSize {
+    position: fixed;
+    bottom: 0;
+    height: 60vh;
+    background-color: #fff;
+    z-index: 180;
+    padding: 4vw;
+}
+
+.detailChooseSizeImg {
+    width: 25vw;
+    height: 25vw;
+    display: inline-block;
+    position: relative;
+    top: -6vh;
+}
+
+.detailChooseSizeImg img {
+    max-width: 100%;
+}
+
+.detailChooseComment {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    height: 11vh;
+}
+
+.myjoinPeople {
+    top: 4.5vh;
+    margin-left: 4vw;
+}
+
+.detailChoosePrice {
+    color: #e64643;
+    position: absolute;
+    top: .6rem;
+    margin-left: 3vw;
+}
+
+.detailChoosed {
+    position: absolute;
+    font-size: .9rem;
+    margin-top: 6vh;
+    margin-left: 4vw;
+}
+
+.pickSize {
+    float: left;
+    margin-right: 5vw;
+    background-color: rgb(239, 239, 239);
+    color: black;
+    border-radius: 10px;
+    padding: 1vw 3vw;
+    border: none;
+    margin-top: 4vw;
+}
+
+.picked {
+    background-color: rgb(230, 70, 67);
+    color: #fff;
+}
+
+.standard {
+    margin-top: 2vh;
+}
+
+.detailChooseComfirm {
+    position: absolute;
+    bottom: 2vh;
+}
+
+.detailChooseComfirmNum {}
+
+.detailChooseComfirmBtn {
+    width: 92vw;
+    margin-bottom: 0;
+}

@@ -1,0 +1,277 @@
+body {
+    background: #F8F7FC;
+}
+
+.swiper {
+    width: 100%;
+    vertical-align: bottom;
+    margin-top: -44px;
+}
+
+
+/*菜单*/
+
+.nav {
+    background-color: #FFDBD1;
+    padding: 15px;
+    white-space: nowrap;
+    overflow-y: scroll;
+    border-radius: 10px 10px 0px 0px;
+    transition: .3s;
+    color: #BD7758;
+}
+
+.nav p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav .active {
+    color: #E64340;
+}
+
+.nav.change p.active {
+    color: #ffffff;
+}
+
+.mescroll-empty {
+    padding-top: 50px;
+}
+
+
+/*ios使用sticky样式实现*/
+
+.nav-sticky {
+    z-index: 9999;
+    /*需设置zIndex,避免在悬停时,可能会被列表数据遮住*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 43px;
+    /*相对mescroll的div悬停的位置*/
+}
+
+.navWarp {
+    z-index: 9999;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 43px;
+    padding: 0 15px;
+    margin-top: -55px;
+    transition: .3s;
+    z-index: 999;
+}
+
+
+/*android和pc端悬停*/
+
+.nav-fixed {
+    z-index: 9999;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    width: 100%;
+}
+
+
+/*列表*/
+
+.mescroll {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.timerView {
+    background-color: #FFDBD1;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timerView p {
+    color: #BE785A;
+}
+
+.timerBox {
+    display: flex;
+    align-items: center;
+    background: #FF8C8C;
+    color: #ffffff;
+}
+
+.timerBox p {
+    background: rgba(230, 67, 64, 1);
+    color: #ffffff;
+    padding: 3px;
+}
+
+.timerBox div {
+    padding: 3px;
+}
+
+.seckillList {
+    padding: 0 15px;
+    transition: .6s;
+}
+
+
+/*展示上拉加载的数据列表*/
+
+.data-list li {
+    position: relative;
+    padding: 10px 8px 10px 120px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.data-list .pd-img {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateY(-50%);
+}
+
+.data-list .pd-name {
+    font-size: .32rem;
+    height: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.data-list .pd-price {
+    margin-top: 8px;
+    color: red;
+    font-size: .32rem;
+}
+
+.data-list .pd-sold {
+    font-size: 12px;
+    margin-top: 8px;
+    color: gray;
+}
+
+.pd-btn {
+    position: relative;
+}
+
+.mssCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.mssCon span {
+    font-size: .28rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.mssCon p {
+    width: 100px;
+    height: 20px;
+    background: url(../images/mss.png);
+    line-height: 20px;
+    text-align: center;
+    background-size: contain;
+    font-size: .24rem;
+    color: rgba(230, 68, 64, 1);
+}
+
+.seckill-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.seckill-price span {
+    font-size: .24rem;
+    color: rgba(194, 194, 194, 1);
+    text-decoration: line-through;
+}
+
+
+/*新人专享*/
+
+.newNav {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.newList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.newItem {
+    width: 47.5%;
+    margin-bottom: 15px;
+}
+
+.newItemCon {
+    background: #ffffff;
+    padding: 10px;
+}
+
+.newItemTitle {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: .24rem;
+    color: rgba(68, 68, 68, 1);
+    margin-bottom: 15px;
+}
+
+.newItemPrice {
+    display: flex;
+    align-items: center;
+}
+
+.newItemPrice .price {
+    font-size: .24rem;
+    color: rgba(230, 71, 68, 1);
+    margin-right: 15px;
+}
+
+.newItemPrice .price span {
+    font-size: .32rem;
+}
+
+.newItemPrice .tag {
+    width: 40px;
+    height: 16px;
+    background: rgba(230, 70, 68, 1);
+    border-radius: 3px;
+    line-height: 16px;
+    text-align: center;
+    font-size: .24rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.newTxt {
+    font-size: .28rem;
+    color: rgba(230, 68, 64, 1);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.newTxt p:last-child {
+    font-size: .24rem;
+    margin-top: 8px;
+}
